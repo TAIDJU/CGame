@@ -38,8 +38,20 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="GameCycleModelView.cs" />
+        <Compile Include="MainModelView.cs" />
         <Compile Include="ModelView.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Adons\Adons.csproj">
+        <Project>{e7d93184-f0ac-4fdf-a41f-4bd9943418ab}</Project>
+        <Name>Adons</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Model\Model.csproj">
+        <Project>{de4df2f4-959d-4be6-b56c-dd556f85695d}</Project>
+        <Name>Model</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

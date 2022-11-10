@@ -38,8 +38,19 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="MainView.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="View.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Adons\Adons.csproj">
+        <Project>{e7d93184-f0ac-4fdf-a41f-4bd9943418ab}</Project>
+        <Name>Adons</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\ModelView\ModelView.csproj">
+        <Project>{1448f5fd-7bf6-4db6-989b-3a7b4ddb379d}</Project>
+        <Name>ModelView</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
