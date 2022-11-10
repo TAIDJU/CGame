@@ -1,12 +1,13 @@
-namespace Model;
-
-public class Damage : Model
+namespace Model
 {
-    public int Value { get; }
-
-
-    public Damage(int value)
+    public class Damage
     {
-        Value = value;
+        public int Value { get; }
+
+
+        public Damage(int value)
+        {
+            Value = value;
+        }
     }
 }

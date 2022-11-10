@@ -1,6 +1,7 @@
-namespace ViewModel;
-
-public abstract class ModelView
+namespace ModelView
 {
-    
+    public abstract class ModelView
+    {
+        
+    }
 }

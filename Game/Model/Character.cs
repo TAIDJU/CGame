@@ -1,13 +1,14 @@
-namespace Model;
-
-public sealed class Character : Model
+namespace Model
 {
-    public Damage Damage { get; }
-    public Health Health { get; }
-
-    public Character(Health health, Damage damage)
+    public class Character
     {
-        Health = health;
-        Damage = damage;
+        public Damage Damage { get; }
+        public Health Health { get; }
+
+        public Character(Health health, Damage damage)
+        {
+            Health = health;
+            Damage = damage;
+        }
     }
 }

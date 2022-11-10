@@ -1,6 +1,7 @@
-namespace Model;
-
-public abstract class Model
+namespace Model
 {
-    
+    public abstract class Model
+    {
+        
+    }
 }

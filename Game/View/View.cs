@@ -1,14 +1,7 @@
-using ViewModel;
-
-namespace View;
-
-public class View
+namespace View
 {
-    public GameCycleModelView GameCycleModelView { get; set; }
-
-
-    public View()
+    public abstract class View
     {
-        GameCycleModelView = new GameCycleModelView();
+        
     }
 }

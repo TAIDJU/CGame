@@ -1,21 +1,22 @@
-namespace Model;
-
-public sealed class Health : Model
+namespace Model
 {
-    public int Value { get; private set; }
-
-
-    public Health(int value)
+    public class Health
     {
-        Value = value;
-    }
+        public int Value { get; private set; }
 
 
-    public bool TryApplyDamage(Damage damage)
-    {
-        if (Value <= damage.Value) return false;
+        public Health(int value)
+        {
+            Value = value;
+        }
 
-        Value -= damage.Value;
-        return true;
+
+        public bool TryApplyDamage(Damage damage)
+        {
+            if (Value <= damage.Value) return false;
+
+            Value -= damage.Value;
+            return true;
+        }
     }
 }
