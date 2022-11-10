@@ -1,6 +1,6 @@
 namespace Model
 {
-    public class Character
+    public sealed class Character : Model
     {
         public Damage Damage { get; }
         public Health Health { get; }

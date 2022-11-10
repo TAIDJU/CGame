@@ -1,6 +1,6 @@
 namespace Model
 {
-    public class Health
+    public sealed class Health : Model
     {
         public int Value { get; private set; }
 

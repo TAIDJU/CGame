@@ -1,6 +1,6 @@
 namespace Model
 {
-    public class Damage
+    public sealed class Damage : Model
     {
         public int Value { get; }
 
