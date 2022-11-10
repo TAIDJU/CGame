@@ -11,10 +11,7 @@ _ReSharper.Caches/
 .consulo/
 .vs/
 .idea/
-*.csproj
-*.csproj.*
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.userprefs
