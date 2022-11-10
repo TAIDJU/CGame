@@ -40,9 +40,16 @@
     <ItemGroup>
         <Compile Include="Character.cs" />
         <Compile Include="Damage.cs" />
+        <Compile Include="GameCycle.cs" />
         <Compile Include="Health.cs" />
         <Compile Include="Model.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Adons\Adons.csproj">
+        <Project>{e7d93184-f0ac-4fdf-a41f-4bd9943418ab}</Project>
+        <Name>Adons</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
