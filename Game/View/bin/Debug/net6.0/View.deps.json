@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "View/1.0.0": {
+        "dependencies": {
+          "ModelView": "1.0.0"
+        },
+        "runtime": {
+          "View.dll": {}
+        }
+      },
+      "Addons/1.0.0": {
+        "runtime": {
+          "Addons.dll": {}
+        }
+      },
+      "Model/1.0.0": {
+        "dependencies": {
+          "Addons": "1.0.0"
+        },
+        "runtime": {
+          "Model.dll": {}
+        }
+      },
+      "ModelView/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "runtime": {
+          "ModelView.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Addons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelView/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
